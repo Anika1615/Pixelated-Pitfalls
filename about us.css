@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #7e8b94, #4274c0);
+  color: #fdfdfd;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+h1, h2 {
+  color: #fff;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.profile img {
+  width: 290px;
+  height: 250px;
+  margin-right: 20px;
+  border: 3px solid #fff;
+}
+.profile .text {
+  text-align: left;
+  max-width: 600px;
+}
+p {
+  color: #fff4f4;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+.nav {
+  margin-bottom: 30px;
+}
+  

@@ -1,0 +1,48 @@
+body {
+  background-color: #F5F7FA;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+nav {
+  background-color: #3630af;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 20px 20px;
+}
+nav a {
+  color: white;
+  font-size: 18px;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #D1C4E9;
+  text-decoration: underline;
+}text-decoration: underline;
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.email-box {
+  background: #E6E6FA;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  font-size: 18px;
+}

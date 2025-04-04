@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f3f5; 
+    color: #333333; 
+    line-height: 1.6;
+    margin: 0;
+}
+
+nav {
+    background-color: #a29bfe;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #6c4fbd; 
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    color: #6c4fbd; 
+    font-family: 'Georgia', serif;
+    font-weight: 700;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff; 
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f0f0;
+}
+
+.form-container label {
+    font-size: 18px;
+    color: #6c4fbd; 
+    font-weight: 600;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fafafa; 
+    transition: border-color 0.3s;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+    border-color: #a29bfe; 
+    outline: none;
+}
+
+.form-container textarea {
+    height: 250px; 
+    resize: none;
+}
+
+.form-container input[type="submit"] {
+    background-color: #a29bfe;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #6c4fbd; 
+}
+
+.blog-posts {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.blog-post {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f0f0;
+}
+
+.blog-post h3 {
+    font-size: 32px;
+    color: #6c4fbd;
+    font-weight: 700;
+}
+
+.blog-post .author {
+    font-size: 18px;
+    color: #7d7d7d;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.blog-post .content {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333333;
+}

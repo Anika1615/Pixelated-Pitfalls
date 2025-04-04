@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url('bg2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #444;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: justify;
+  float: right;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6b6b;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.back-to-top {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
